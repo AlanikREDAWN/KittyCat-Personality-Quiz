@@ -1,13 +1,27 @@
+@font-face {
+  font-family: FOT-Yuruka Std;
+  src: url(assets/FOT-YurukaStd-UB.otf);
+/* 
+  font-family: Happy;
+  src: url(assets/HappyLucky-gxnZP.ttf); */
+}
+@font-face {
+  font-family: Happy;
+  src: url(assets/HappyLucky-gxnZP.ttf);
+}
 /* STYLE SECTIONING TAGS */
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Trebuchet MS", "Happy", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #F3D2C6;
+  color: #0C0C0C;
 }
 
 /* STYLE TEXT */
 h1 {
-  font-style: italic;
+  /* font-style: italic; */
   color: #0d9c90;
+  font-family: "FOT-Yuruka Std", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 h2 {
@@ -35,4 +49,15 @@ h2 {
 /* STYLE BUTTON */
 button { 
   margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  /* background-color: #2A324B;
+  color: #FFE2D1; */
+  color: #2A324B;
+  background-color: #FFE2D1;
+}
+
+button:disabled {
+  color: #2A324B;
+  background-color: #2A324B;
 }
